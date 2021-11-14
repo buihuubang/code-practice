@@ -39,4 +39,29 @@ if __name__ == '__main__':
                         q.put(q.get())
                 c -= 1
             count += 1
-            
+
+# TEST CASE:
+
+# INPUT:
+# 3 6
+# N
+# N
+# E 1
+# N
+# N
+# N
+# 10 2
+# N
+# N
+# 0 0
+
+# OUT PUT:
+# Case 1:
+# 1
+# 2
+# 1
+# 3
+# 2
+# Case 2:
+# 1
+# 2
