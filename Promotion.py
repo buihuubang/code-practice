@@ -14,7 +14,6 @@ if __name__ == '__main__':
     maxLst = []
     sumCost = 0
     lenLst = 0
-    lst = []
     for i in range(n):
         b = list(map(int, input().split()))
         for j in range(1, len(b)):
