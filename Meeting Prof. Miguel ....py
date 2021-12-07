@@ -58,3 +58,25 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''
+TEST CASE:
+
+INPUT:
+4
+Y U A B 4
+Y U C A 1
+M U D B 6
+M B C D 2
+A D
+2
+Y U A B 10
+M U C D 20
+A D
+0
+
+OUTPUT:
+10 B
+You will never meet.
+
+'''
