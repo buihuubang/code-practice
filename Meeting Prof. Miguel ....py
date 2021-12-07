@@ -47,7 +47,7 @@ def main():
         if len(res) <= 0:
             print("You will never meet.", end='')
         else:
-            res.sort(key=lambda element: element[1])
+            res.sort(key=lambda element: (element[1], element[0]))
             for i in range(len(res)):
                 if i == 0:
                     print(res[i][1], end=' ')
