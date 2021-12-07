@@ -24,7 +24,8 @@ def main():
         for i in range(n):
             x[i], y[i] = map(int, input().split())
         graph = [[math.sqrt(pow(x[i]-x[j], 2) + pow(y[i] - y[j], 2))\
-                      if math.sqrt(pow(x[i]-x[j], 2) + pow(y[i] - y[j], 2)) <= 10 else INF for j in range(n)]\
+                      if math.sqrt(pow(x[i]-x[j], 2) + pow(y[i] - y[j], 2)) <= 10\
+                      else INF for j in range(n)]\
                  for i in range(n)]
         ans = floyd_warshall(graph, n)
         print(f"Case #{tc}:")
