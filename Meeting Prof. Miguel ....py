@@ -61,7 +61,6 @@ if __name__ == '__main__':
 
 '''
 TEST CASE:
-
 INPUT:
 4
 Y U A B 4
@@ -74,9 +73,7 @@ Y U A B 10
 M U C D 20
 A D
 0
-
 OUTPUT:
 10 B
 You will never meet.
-
 '''
