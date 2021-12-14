@@ -16,7 +16,7 @@ def main():
     while tc < t:
         try:
             tree_name = input()
-            if len(tree_name.strip()) > 0:
+            if len(tree_name) > 0:
                 get_num_spe = d.get(tree_name)
                 if get_num_spe == None:
                     d[tree_name] = 1
