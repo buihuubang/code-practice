@@ -45,14 +45,12 @@ if __name__ == '__main__':
 
 '''
 TEST CASE:
-
 INPUT:
 4
 add hack
 add hackerrank
 find hac
 find hak
-
 OUTPUT:
 2
 0
