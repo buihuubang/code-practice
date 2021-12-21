@@ -19,34 +19,11 @@ Next line consists of an array CC denoting the latencies of the QQ cables.
 
 Output Format
 Output the required answer on a single line.
-
-Constraints:
-
-1 \le N \le 10^51≤N≤10
-​5
-​​
-
-1 \le M \le 10^51≤M≤10
-​5
-​​
-
-1 \le A,B \le N1≤A,B≤N
-
-1 \le L \le 10^61≤L≤10
-​6
-​​
-
-0 \le Q \le 10^50≤Q≤10
-​5
-​​
-
-1 \le C_i \le 10^6;1 \le i \le Q1≤C
-​i
-​​ ≤10
-​6
-​​ ;1≤i≤Q
 '''
 
+'''
+CODE
+'''
 import queue
 
 INF = 1e9
