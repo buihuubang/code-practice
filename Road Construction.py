@@ -63,10 +63,8 @@ if __name__ == '__main__':
 
 '''
 TEST CASE:
-
 INPUT:
 2
-
 12
 Dhaka Sylhet 0
 Ctg Dhaka 0
@@ -80,11 +78,9 @@ Khulna Rangpur 7
 Chandpur Rangpur 7
 Dhaka Rajshahi 6
 Dhaka Rajshahi 7
-
 2
 Rajshahi Khulna 4
 Kushtia Bhola 1
-
 OUTPUT:
 Case 1: 31
 Case 2: Impossible
