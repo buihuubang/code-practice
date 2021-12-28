@@ -1,5 +1,3 @@
-import random
-
 parent = []
 ranks = []
 num = []
@@ -12,20 +10,6 @@ def make_set():
     parent = [i for i in range(n + 5)]
     ranks = [0 for _ in range(n + 5)]
     num = [1 for _ in range(n + 5)]
-
-
-def make_set_1():
-    global parent, index, num
-    parent = [i for i in range(n + 5)]
-    num = [1 for _ in range(n + 5)]
-    index = [random.random() for _ in range(n + 5)]
-
-
-def swap(u, v):
-    temp = u
-    u = v
-    v = temp
-    return u, v
 
 
 def find_set(u):
@@ -50,29 +34,6 @@ def union_set_ranks(u, v):
         ranks[vp] += 1
         num[vp] += num[up]
     return
-
-
-def union_set_size(u, v):
-    up = find_set(u)
-    vp = find_set(v)
-    if up == vp:
-        return
-    if num[up] < num[vp]:
-        parent[vp] = up
-    else:
-        parent[up] = vp
-        num[vp] += num[up]
-    return
-
-
-def union_sets(u, v):
-    u = find_set(u)
-    v = find_set(v)
-    if u != v:
-        if not random.random() % 2:
-            u, v = swap(u, v)
-        parent[v] = u
-        num[u] += num[v]
 
 
 def main():
